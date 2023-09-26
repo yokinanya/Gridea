@@ -1,0 +1,495 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>Minecraft Fabric 生电向整合包 | 绫沫猫猫冲</title>
+
+<link rel="shortcut icon" href="https://blog.yokinanya.icu/favicon.ico?v=1695726120462">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://blog.yokinanya.icu/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            绫沫猫猫冲
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="https://blog.yokinanya.icu/post/How-To-Ask-Questions" class="menu gt-a-link">
+                            提问的智慧
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/post/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1695726120462" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    Minecraft Fabric 生电向整合包
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2023-07-03 ·
+                    </time>
+                    
+                        <a href="https://blog.yokinanya.icu/tag/minecraft/" class="post-tags">
+                            # minecraft
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <h1 id="简介">简介</h1>
+<p>这是一个Minecraft整合包合集页面，包含从1.18.2起由我打包的各类整合包，以生电向mod为主<br/><br>
+整合包一般都会包含以下mod，无特殊情况不再重复描述：</p>
+<details> <summary> 展开mod列表 </summary>
+<table>
+<thead>
+<tr>
+<th>mod名称</th>
+<th>下载地址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AppleSkin</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/appleskin">Curseforge</a> / <a href="https://modrinth.com/mod/EsAfCjCV">Modrinth</a></td>
+</tr>
+<tr>
+<td>Architectury</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/architectury-api">Curseforge</a> / <a href="https://modrinth.com/mod/lhGA9TYQ">Modrinth</a></td>
+</tr>
+<tr>
+<td>Auth Me</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/auth-me">Curseforge</a> / <a href="https://modrinth.com/mod/yjgIrBjZ">Modrinth</a></td>
+</tr>
+<tr>
+<td>AutoFish</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/autofish">Curseforge</a></td>
+</tr>
+<tr>
+<td>Bad Packets</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/badpackets">Curseforge</a> / <a href="https://modrinth.com/mod/ftdbN0KK">Modrinth</a></td>
+</tr>
+<tr>
+<td>Better Beds</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/better-beds">Curseforge</a> / <a href="https://modrinth.com/mod/kKwy3HU9">Modrinth</a></td>
+</tr>
+<tr>
+<td>CIT Resewn</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/cit-resewn">Curseforge</a> / <a href="https://modrinth.com/mod/otVJckYQ">Modrinth</a></td>
+</tr>
+<tr>
+<td>Carpet Mod</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/carpet">Curseforge</a> / <a href="https://modrinth.com/mod/TQTTVgYE">Modrinth</a></td>
+</tr>
+<tr>
+<td>Carpet Extra</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/carpet-extra">Curseforge</a> / <a href="https://modrinth.com/mod/VX3TgwQh">Modrinth</a></td>
+</tr>
+<tr>
+<td>Carpet TCTC Addition</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/carpet-tctc-addition">Curseforge</a> / <a href="https://modrinth.com/mod/vbBQ6dVH">Modrinth</a></td>
+</tr>
+<tr>
+<td>Carpet TIS Addition</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/carpet-tis-addition">Curseforge</a> / <a href="https://modrinth.com/mod/jE0SjGuf">Modrinth</a></td>
+</tr>
+<tr>
+<td>Chat Heads</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/chat-heads">Curseforge</a> / <a href="https://modrinth.com/mod/Wb5oqrBJ">Modrinth</a></td>
+</tr>
+<tr>
+<td>Cloth Config API</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/cloth-config">Curseforge</a> / <a href="https://modrinth.com/mod/9s6osm5g">Modrinth</a></td>
+</tr>
+<tr>
+<td>Continuity</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/continuity">Curseforge</a> / <a href="https://modrinth.com/mod/1IjD5062">Modrinth</a></td>
+</tr>
+<tr>
+<td>CustomSkinLoader</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/customskinloader">Curseforge</a></td>
+</tr>
+<tr>
+<td>Enhanced Block Entities</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities">Curseforge</a> / <a href="https://modrinth.com/mod/OVuFYfre">Modrinth</a></td>
+</tr>
+<tr>
+<td>Fabric Api</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api">Curseforge</a> / <a href="https://modrinth.com/mod/P7dR8mSH">Modrinth</a></td>
+</tr>
+<tr>
+<td>Fabric Language Kotlin</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin">Curseforge</a> / <a href="https://modrinth.com/mod/Ha28R6CL">Modrinth</a></td>
+</tr>
+<tr>
+<td>FerriteCore</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric">Curseforge</a> / <a href="https://modrinth.com/mod/uXXizFIs">Modrinth</a></td>
+</tr>
+<tr>
+<td>IMBlocker</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/imblockerfabric">Curseforge</a> / <a href="https://modrinth.com/mod/752GQt04">Modrinth</a></td>
+</tr>
+<tr>
+<td>Indium</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/indium">Curseforge</a> / <a href="https://modrinth.com/mod/Orvt0mRa">Modrinth</a></td>
+</tr>
+<tr>
+<td>Inventory Profiles Next</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next">Curseforge</a> / <a href="https://modrinth.com/mod/O7RBXm3n">Modrinth</a></td>
+</tr>
+<tr>
+<td>Iris Shaders</td>
+<td><a href="https://modrinth.com/mod/YL57xq9U">Modrinth</a> / <a href="https://irisshaders.dev/download">官网</a></td>
+</tr>
+<tr>
+<td>Item Scroller</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/item-scroller">Curseforge</a></td>
+</tr>
+<tr>
+<td>Litematica</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/litematica">Curseforge</a></td>
+</tr>
+<tr>
+<td>MaLiLib</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/malilib">Curseforge</a></td>
+</tr>
+<tr>
+<td>MagicLib</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/magiclib">Curseforge</a> / <a href="https://modrinth.com/mod/mv1zH6ln">Modrinth</a></td>
+</tr>
+<tr>
+<td>Masa Gadget</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/masa-gadget">Curseforge</a> / <a href="https://modrinth.com/mod/SFO4Ca80">Modrinth</a></td>
+</tr>
+<tr>
+<td>MiniHUD</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/minihud">Curseforge</a></td>
+</tr>
+<tr>
+<td>Mod Menu</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/modmenu">Curseforge</a> / <a href="https://modrinth.com/mod/mOgUt4GM">Modrinth</a></td>
+</tr>
+<tr>
+<td>More Statistics</td>
+<td><a href="https://modrinth.com/mod/EhoUIqvO">Modrinth</a></td>
+</tr>
+<tr>
+<td>oh my minecraft client</td>
+<td><a href="https://github.com/Nyan-Work/oh-my-minecraft-client">Github</a></td>
+</tr>
+<tr>
+<td>Plusls Carpet Addition</td>
+<td><a href="https://github.com/Nyan-Work/plusls-carpet-addition">Github</a></td>
+</tr>
+<tr>
+<td>Reese's Sodium Options</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options">Curseforge</a> <a href="https://modrinth.com/mod/Bh37bMuy">Modrinth</a></td>
+</tr>
+<tr>
+<td>Roughly Enough Items</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items">Curseforge</a> / <a href="https://modrinth.com/mod/nfn13YXA">Modrinth</a></td>
+</tr>
+<tr>
+<td>Screenshot to Clipboard</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/screenshot-to-clipboard-fabric">Curseforge</a> / <a href="https://modrinth.com/mod/1KiJRrTg">Modrinth</a></td>
+</tr>
+<tr>
+<td>Sodium</td>
+<td><a href="https://modrinth.com/mod/AANobbMI">Modrinth</a></td>
+</tr>
+<tr>
+<td>Sodium Extra</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/sodium-extra">Curseforge</a> / <a href="https://modrinth.com/mod/PtjYWJkn">Modrinth</a></td>
+</tr>
+<tr>
+<td>Starlight</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/starlight">Curseforge</a> / <a href="https://modrinth.com/mod/H8CaAYZC">Modrinth</a></td>
+</tr>
+<tr>
+<td>TweakerMore</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/tweakermore">Curseforge</a> / <a href="https://modrinth.com/mod/GBeCx05I">Modrinth</a></td>
+</tr>
+<tr>
+<td>Tweakeroo</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/tweakeroo">Curseforge</a></td>
+</tr>
+<tr>
+<td>TweakMyClient</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/tweakmyclient">Curseforge</a></td>
+</tr>
+<tr>
+<td>Xaero's Minimap</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap">Curseforge</a> / <a href="https://modrinth.com/mod/1bokaNcj">Modrinth</a></td>
+</tr>
+<tr>
+<td>Xaero's World Map</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map">Curseforge</a> / <a href="https://modrinth.com/mod/NcUtCpym">Modrinth</a></td>
+</tr>
+<tr>
+<td>libIPN</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/libipn">Curseforge</a> / <a href="https://modrinth.com/mod/libipn">Modrinth</a></td>
+</tr>
+<tr>
+<td>spark</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/spark">Curseforge</a> / <a href="https://modrinth.com/mod/l6YH9Als">Modrinth</a></td>
+</tr>
+<tr>
+<td>WTHIT</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/wthit">Curseforge</a> / <a href="https://modrinth.com/mod/6AQIaxuO">Modrinth</a></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><br/>1.20.1 起追加mod</p>
+<p><a href="https://modrinth.com/mod/G1epq3jN">AdvancementInfo</a><br>
+<a href="https://github.com/charassss/tin3o">TIN3O</a><br>
+<a href="https://modrinth.com/mod/pGbwwB5d">LetMeClickAndSend</a></p>
+<h1 id="1182-vanilla">1.18.2 Vanilla</h1>
+<blockquote>
+<p>整合包为原版分支<br>
+更新日期：2023-07-06</p>
+</blockquote>
+<p>此版本使用了 <a href="https://modrinth.com/mod/K8pn1qHf">OAuth</a> 替代了 Auth Me</p>
+<h1 id="1182-create">1.18.2 Create</h1>
+<blockquote>
+<p>整合包为机械动力分支<br>
+更新日期：2023-07-06</p>
+</blockquote>
+<p>在 1.18.2 Vanilla 的基础上增加了 <a href="https://modrinth.com/mod/create-fabric">机械动力</a>、<a href="https://modrinth.com/mod/4EakbH8e">农夫乐事</a>、<a href="https://modrinth.com/mod/5aaWibi9">Trinkets</a>及其附属mod<a href="https://modrinth.com/mod/b5GyyYkp">不死图腾插槽</a> <a href="https://modrinth.com/mod/mSQF1NpT">鞘翅插槽</a></p>
+<h1 id="1194">1.19.4</h1>
+<blockquote>
+<p>整合包为原版分支<br>
+发布日期：2023-04-04</p>
+</blockquote>
+<p>整合包有部分mod是我自行添加汉化文件的，1.19.4整合包不存在机械动力分支</p>
+<h1 id="1201-vanilla">1.20.1 Vanilla</h1>
+<blockquote>
+<p>整合包为原版分支<br>
+发布日期：2023-08-23</p>
+</blockquote>
+<p>整合包有部分mod使用了第三方分支版本</p>
+<h1 id="1201-create">1.20.1 Create</h1>
+<blockquote>
+<p>整合包为机械动力分支<br>
+发布日期：2023-08-25</p>
+</blockquote>
+<p>在 1.20.1 Vanilla 的基础上增加了 <a href="https://modrinth.com/mod/create-fabric">机械动力</a>、<a href="https://modrinth.com/mod/4EakbH8e">农夫乐事</a>、<a href="https://modrinth.com/mod/5aaWibi9">Trinkets</a>及其附属mod<a href="https://modrinth.com/mod/b5GyyYkp">不死图腾插槽</a> <a href="https://modrinth.com/mod/mSQF1NpT">鞘翅插槽</a></p>
+<p>已知bug：</p>
+<ul>
+<li>实体方块在Sodium 5.0下无法正常显示 <a href="https://github.com/Fabricators-of-Create/Create/issues/1039">#1039</a></li>
+<li>与starlight冲突会导致游戏崩溃 <a href="https://github.com/Fabricators-of-Create/Create/issues/1041">#1041</a></li>
+</ul>
+<p>临时解决方案：</p>
+<ul>
+<li>暂时使用Sodium 4.0版本</li>
+<li>删除整合包内starlight</li>
+</ul>
+<h1 id="启动器">启动器</h1>
+<p>整合包内可能没有附带启动器，或者附带了jar格式的HMCL启动器，用Linux/MacOS的应该熟悉，在Windows下如果正确配置了环境变量是可以直接双击运行的。如果需要.exe格式的HMLC启动器可以前往<a href="https://hmcl.huangyuhui.net">HMCL官网</a>下载。或者你想用PCL2、BakaXL，可以把游戏目录自行添加到对应启动器内。<br>
+<strong>注意：不是导入整合包，而是添加已有文件夹</strong></p>
+<h1 id="光影">光影</h1>
+<p>所有整合包均不会使用Optifine，使用光影需要注意光影是否有适配Iris</p>
+<h1 id="第一次启动">第一次启动</h1>
+<p>游戏第一次启动需要联网下载游戏资源文件，如果需要在离线环境下游玩，需要提前在一台联网的电脑下载资源文件再复制到离线的电脑上。</p>
+<h1 id="下载">下载</h1>
+<table>
+<thead>
+<tr>
+<th>下载源</th>
+<th>文件服务器</th>
+<th>大陆/海外</th>
+<th>正式版</th>
+<th>预览版</th>
+<th>客户端</th>
+<th>服务器端</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://share.weiyun.com/PT0hKNFW">腾讯微云</a>(提取码：7e9ure)</td>
+<td>腾讯云</td>
+<td>大陆</td>
+<td>✓</td>
+<td>×</td>
+<td>√</td>
+<td>×</td>
+</tr>
+<tr>
+<td><a href="https://qm.qq.com/cgi-bin/qm/qr?k=FpNvPiwKEBbBRHMvH8-M6Kp1WTB8L6W0">QQ群</a>(1067555292)</td>
+<td>腾讯云COS</td>
+<td>大陆</td>
+<td>✓</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td><a href="https://drivez.yokinanya.icu/Minecraft">洛羽柒·风息</a></td>
+<td>Onedrive国际版</td>
+<td>海外</td>
+<td>✓</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+</tbody>
+</table>
+
+                </div>
+            </article>
+        </div>
+
+        
+
+        
+
+        
+
+        
+            <script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: 'epr44ycFiYzSgsmHT0zRYRJP-MdYXbMMI',
+		appKey: 'WbwaN93k1c9xeJQCCo2oPI7B',
+		avatar: '',
+		pageSize: 5,
+		recordIp: false,
+		placeholder: 'Just Go Go',
+		visitor: false,
+	});
+</script>
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first"></div>
+    <div class="social-container">
+        
+            
+                <a href="https://github.com/yokinanya" target="_blank">
+                    <i class="fab fa-github gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+                <a href="https://twitter.com/yokinanya" target="_blank">
+                    <i class="fab fa-twitter gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+                <a href="https://weibo.com/u/3343258504" target="_blank">
+                    <i class="fab fa-weibo gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://blog.yokinanya.icu/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>

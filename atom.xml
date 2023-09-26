@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.yokinanya.icu</id>
+    <title>绫沫猫猫冲</title>
+    <updated>2023-09-26T11:02:04.352Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://blog.yokinanya.icu"/>
+    <link rel="self" href="https://blog.yokinanya.icu/atom.xml"/>
+    <logo>https://blog.yokinanya.icu/images/avatar.png</logo>
+    <icon>https://blog.yokinanya.icu/favicon.ico</icon>
+    <rights>All rights reserved 2023, 绫沫猫猫冲</rights>
+    <entry>
+        <title type="html"><![CDATA[检测网络联通性&generate_204服务汇总]]></title>
+        <id>https://blog.yokinanya.icu/post/generate_204/</id>
+        <link href="https://blog.yokinanya.icu/post/generate_204/">
+        </link>
+        <updated>2023-07-28T04:31:11.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>本网页转载至 https://imldy.cn/posts/99d42f85，内容有删改</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>服务提供者</th>
+<th>链接</th>
+<th>http/https</th>
+<th>IP Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Google</td>
+<td>http://www.gstatic.com/generate_204</td>
+<td>204/204</td>
+<td>4+6</td>
+</tr>
+<tr>
+<td>Google</td>
+<td>http://www.google-analytics.com/generate_204</td>
+<td>204/204</td>
+<td>4+6</td>
+</tr>
+<tr>
+<td>Google</td>
+<td>http://www.google.com/generate_204</td>
+<td>204/204</td>
+<td>4+6</td>
+</tr>
+<tr>
+<td>Google</td>
+<td>http://connectivitycheck.gstatic.com/generate_204</td>
+<td>204/204</td>
+<td>4+6</td>
+</tr>
+<tr>
+<td>Apple</td>
+<td>http://captive.apple.com</td>
+<td>200/200</td>
+<td>4+6</td>
+</tr>
+<tr>
+<td>Apple🔥</td>
+<td>http://www.apple.com/library/test/success.html</td>
+<td>200/200</td>
+<td>4+6</td>
+</tr>
+<tr>
+<td>MicroSoft</td>
+<td>http://www.msftconnecttest.com/connecttest.txt</td>
+<td>200/error</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Cloudflare</td>
+<td>http://cp.cloudflare.com/</td>
+<td>204/204</td>
+<td>4+6</td>
+</tr>
+<tr>
+<td>Firefox</td>
+<td>http://detectportal.firefox.com/success.txt</td>
+<td>200/200</td>
+<td>4+6</td>
+</tr>
+<tr>
+<td>V2ex</td>
+<td>http://www.v2ex.com/generate_204</td>
+<td>204/301</td>
+<td>4+6</td>
+</tr>
+<tr>
+<td>小米</td>
+<td>http://connect.rom.miui.com/generate_204</td>
+<td>204/204</td>
+<td>4</td>
+</tr>
+<tr>
+<td>华为</td>
+<td>http://connectivitycheck.platform.hicloud.com/generate_204</td>
+<td>204/204</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Vivo</td>
+<td>http://wifi.vivo.com.cn/generate_204</td>
+<td>204/204</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<p>http/https一列表示使用指定协议进行请求，返回的状态码。部分场合对状态码要求较严格。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[星穹铁道索引]]></title>
+        <id>https://blog.yokinanya.icu/post/sr-index/</id>
+        <link href="https://blog.yokinanya.icu/post/sr-index/">
+        </link>
+        <updated>2023-07-17T09:31:07.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>所有攻略来自 <a href="https://space.bilibili.com/346120056">星穹中心</a> ，本文只提供跳转链接</p>
+</blockquote>
+<h1 id="角色一图流">角色一图流</h1>
+<ul>
+<li>
+<p><strong>星穹列车</strong></p>
+<p><a href="https://www.bilibili.com/opus/791446074997866517">开拓者（物理）</a></p>
+<p><a href="https://www.bilibili.com/opus/791798863563325457">三月七</a></p>
+<p><a href="https://www.bilibili.com/opus/792178199413915699">冷面小丹恒</a></p>
+<p><a href="https://www.bilibili.com/opus/789997043179323456">瓦尔特</a></p>
+<p><a href="https://www.bilibili.com/opus/790364000886980704">姬子</a></p>
+<p><a href="https://www.bilibili.com/opus/792560382791123108">开拓者（火）</a></p>
+</li>
+<li>
+<p><strong>空间站</strong></p>
+<p><a href="https://www.bilibili.com/opus/790662672958881905">艾丝妲</a></p>
+</li>
+<li>
+<p><strong>雅利洛-Ⅵ</strong></p>
+<p><a href="https://www.bilibili.com/opus/789140033982431255">希儿</a></p>
+<p><a href="https://www.bilibili.com/opus/789577622440902693">克拉拉</a></p>
+<p><a href="https://www.bilibili.com/opus/789622882853453986">布洛妮娅</a></p>
+<p><a href="https://www.bilibili.com/opus/789930316611452951">杰帕德</a></p>
+<p><s>100sp</s><a href="https://www.bilibili.com/opus/791066429949476883">娜塔莎</a></p>
+<p><a href="https://www.bilibili.com/opus/799189196666306568">佩拉</a></p>
+<p><a href="https://www.bilibili.com/opus/844053827795550248">铃可</a></p>
+</li>
+<li>
+<p><strong>仙舟「罗浮」</strong></p>
+<p><a href="https://www.bilibili.com/opus/796627618043527206">景元</a></p>
+<p><a href="https://www.bilibili.com/opus/789218047777833001">白露</a></p>
+<p><a href="https://www.bilibili.com/opus/790251648837484546">彦卿</a></p>
+<p><a href="https://www.bilibili.com/opus/793652232199340057">素裳</a></p>
+<p><a href="https://www.bilibili.com/opus/794405998957690880">停云</a></p>
+<p><a href="https://www.bilibili.com/opus/797690119930773522">青雀</a></p>
+<p><a href="https://www.bilibili.com/opus/812579512871026704">驭空</a></p>
+<p><a href="https://www.bilibili.com/opus/835484779876974596">丹恒·饮月</a></p>
+<p><a href="https://www.bilibili.com/opus/843439054765686785">符玄</a></p>
+</li>
+<li>
+<p><strong>星核猎手</strong></p>
+<p><a href="https://www.bilibili.com/opus/804434279198097464">银狼</a></p>
+<p><a href="https://www.bilibili.com/opus/819983104502399008">刃</a></p>
+<p><a href="https://www.bilibili.com/opus/827753211417853972">卡芙卡</a></p>
+</li>
+<li>
+<p><strong>未知</strong></p>
+<p><a href="https://www.bilibili.com/opus/812165512383430679">罗刹</a></p>
+</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Certbot 申请证书以及续费]]></title>
+        <id>https://blog.yokinanya.icu/post/certbot/</id>
+        <link href="https://blog.yokinanya.icu/post/certbot/">
+        </link>
+        <updated>2023-07-03T13:40:29.000Z</updated>
+        <content type="html"><![CDATA[<p>安装过程跳过</p>
+<h1 id="申请证书">申请证书</h1>
+<p>通过DNS验证域名：</p>
+<pre><code class="language-bash">certbot certonly -d *.yokinanya.icu --manual --preferred-challenges dns
+</code></pre>
+<p>按照提示在域名服务商处，添加对应的DNS TXT解析记录。<br>
+配置好后按回车继续，如果是修改记录的话，建议等一个TTL的时间再按回车</p>
+<h1 id="续费">续费</h1>
+<p>自动续费：</p>
+<pre><code class="language-bash">certbot renew
+</code></pre>
+<p>可以设置个定时任务：</p>
+<pre><code class="language-bash">1 1 */1 * * certbot renew &gt; /var/log/crontab/certbot
+</code></pre>
+<p>后面日志文件路径随便改，前面定时也可以随便改</p>
+<p>强制重签:</p>
+<pre><code class="language-bash">certbot certonly --manual -d *.yokinanya.icu
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Minecraft Fabric 生电向整合包]]></title>
+        <id>https://blog.yokinanya.icu/post/minecraft-modpacket/</id>
+        <link href="https://blog.yokinanya.icu/post/minecraft-modpacket/">
+        </link>
+        <updated>2023-07-03T08:14:38.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="简介">简介</h1>
+<p>这是一个Minecraft整合包合集页面，包含从1.18.2起由我打包的各类整合包，以生电向mod为主<br/><br>
+整合包一般都会包含以下mod，无特殊情况不再重复描述：</p>
+<details> <summary> 展开mod列表 </summary>
+<table>
+<thead>
+<tr>
+<th>mod名称</th>
+<th>下载地址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AppleSkin</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/appleskin">Curseforge</a> / <a href="https://modrinth.com/mod/EsAfCjCV">Modrinth</a></td>
+</tr>
+<tr>
+<td>Architectury</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/architectury-api">Curseforge</a> / <a href="https://modrinth.com/mod/lhGA9TYQ">Modrinth</a></td>
+</tr>
+<tr>
+<td>Auth Me</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/auth-me">Curseforge</a> / <a href="https://modrinth.com/mod/yjgIrBjZ">Modrinth</a></td>
+</tr>
+<tr>
+<td>AutoFish</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/autofish">Curseforge</a></td>
+</tr>
+<tr>
+<td>Bad Packets</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/badpackets">Curseforge</a> / <a href="https://modrinth.com/mod/ftdbN0KK">Modrinth</a></td>
+</tr>
+<tr>
+<td>Better Beds</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/better-beds">Curseforge</a> / <a href="https://modrinth.com/mod/kKwy3HU9">Modrinth</a></td>
+</tr>
+<tr>
+<td>CIT Resewn</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/cit-resewn">Curseforge</a> / <a href="https://modrinth.com/mod/otVJckYQ">Modrinth</a></td>
+</tr>
+<tr>
+<td>Carpet Mod</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/carpet">Curseforge</a> / <a href="https://modrinth.com/mod/TQTTVgYE">Modrinth</a></td>
+</tr>
+<tr>
+<td>Carpet Extra</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/carpet-extra">Curseforge</a> / <a href="https://modrinth.com/mod/VX3TgwQh">Modrinth</a></td>
+</tr>
+<tr>
+<td>Carpet TCTC Addition</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/carpet-tctc-addition">Curseforge</a> / <a href="https://modrinth.com/mod/vbBQ6dVH">Modrinth</a></td>
+</tr>
+<tr>
+<td>Carpet TIS Addition</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/carpet-tis-addition">Curseforge</a> / <a href="https://modrinth.com/mod/jE0SjGuf">Modrinth</a></td>
+</tr>
+<tr>
+<td>Chat Heads</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/chat-heads">Curseforge</a> / <a href="https://modrinth.com/mod/Wb5oqrBJ">Modrinth</a></td>
+</tr>
+<tr>
+<td>Cloth Config API</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/cloth-config">Curseforge</a> / <a href="https://modrinth.com/mod/9s6osm5g">Modrinth</a></td>
+</tr>
+<tr>
+<td>Continuity</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/continuity">Curseforge</a> / <a href="https://modrinth.com/mod/1IjD5062">Modrinth</a></td>
+</tr>
+<tr>
+<td>CustomSkinLoader</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/customskinloader">Curseforge</a></td>
+</tr>
+<tr>
+<td>Enhanced Block Entities</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities">Curseforge</a> / <a href="https://modrinth.com/mod/OVuFYfre">Modrinth</a></td>
+</tr>
+<tr>
+<td>Fabric Api</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api">Curseforge</a> / <a href="https://modrinth.com/mod/P7dR8mSH">Modrinth</a></td>
+</tr>
+<tr>
+<td>Fabric Language Kotlin</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin">Curseforge</a> / <a href="https://modrinth.com/mod/Ha28R6CL">Modrinth</a></td>
+</tr>
+<tr>
+<td>FerriteCore</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric">Curseforge</a> / <a href="https://modrinth.com/mod/uXXizFIs">Modrinth</a></td>
+</tr>
+<tr>
+<td>IMBlocker</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/imblockerfabric">Curseforge</a> / <a href="https://modrinth.com/mod/752GQt04">Modrinth</a></td>
+</tr>
+<tr>
+<td>Indium</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/indium">Curseforge</a> / <a href="https://modrinth.com/mod/Orvt0mRa">Modrinth</a></td>
+</tr>
+<tr>
+<td>Inventory Profiles Next</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next">Curseforge</a> / <a href="https://modrinth.com/mod/O7RBXm3n">Modrinth</a></td>
+</tr>
+<tr>
+<td>Iris Shaders</td>
+<td><a href="https://modrinth.com/mod/YL57xq9U">Modrinth</a> / <a href="https://irisshaders.dev/download">官网</a></td>
+</tr>
+<tr>
+<td>Item Scroller</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/item-scroller">Curseforge</a></td>
+</tr>
+<tr>
+<td>Litematica</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/litematica">Curseforge</a></td>
+</tr>
+<tr>
+<td>MaLiLib</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/malilib">Curseforge</a></td>
+</tr>
+<tr>
+<td>MagicLib</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/magiclib">Curseforge</a> / <a href="https://modrinth.com/mod/mv1zH6ln">Modrinth</a></td>
+</tr>
+<tr>
+<td>Masa Gadget</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/masa-gadget">Curseforge</a> / <a href="https://modrinth.com/mod/SFO4Ca80">Modrinth</a></td>
+</tr>
+<tr>
+<td>MiniHUD</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/minihud">Curseforge</a></td>
+</tr>
+<tr>
+<td>Mod Menu</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/modmenu">Curseforge</a> / <a href="https://modrinth.com/mod/mOgUt4GM">Modrinth</a></td>
+</tr>
+<tr>
+<td>More Statistics</td>
+<td><a href="https://modrinth.com/mod/EhoUIqvO">Modrinth</a></td>
+</tr>
+<tr>
+<td>oh my minecraft client</td>
+<td><a href="https://github.com/Nyan-Work/oh-my-minecraft-client">Github</a></td>
+</tr>
+<tr>
+<td>Plusls Carpet Addition</td>
+<td><a href="https://github.com/Nyan-Work/plusls-carpet-addition">Github</a></td>
+</tr>
+<tr>
+<td>Reese's Sodium Options</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options">Curseforge</a> <a href="https://modrinth.com/mod/Bh37bMuy">Modrinth</a></td>
+</tr>
+<tr>
+<td>Roughly Enough Items</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items">Curseforge</a> / <a href="https://modrinth.com/mod/nfn13YXA">Modrinth</a></td>
+</tr>
+<tr>
+<td>Screenshot to Clipboard</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/screenshot-to-clipboard-fabric">Curseforge</a> / <a href="https://modrinth.com/mod/1KiJRrTg">Modrinth</a></td>
+</tr>
+<tr>
+<td>Sodium</td>
+<td><a href="https://modrinth.com/mod/AANobbMI">Modrinth</a></td>
+</tr>
+<tr>
+<td>Sodium Extra</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/sodium-extra">Curseforge</a> / <a href="https://modrinth.com/mod/PtjYWJkn">Modrinth</a></td>
+</tr>
+<tr>
+<td>Starlight</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/starlight">Curseforge</a> / <a href="https://modrinth.com/mod/H8CaAYZC">Modrinth</a></td>
+</tr>
+<tr>
+<td>TweakerMore</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/tweakermore">Curseforge</a> / <a href="https://modrinth.com/mod/GBeCx05I">Modrinth</a></td>
+</tr>
+<tr>
+<td>Tweakeroo</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/tweakeroo">Curseforge</a></td>
+</tr>
+<tr>
+<td>TweakMyClient</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/tweakmyclient">Curseforge</a></td>
+</tr>
+<tr>
+<td>Xaero's Minimap</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap">Curseforge</a> / <a href="https://modrinth.com/mod/1bokaNcj">Modrinth</a></td>
+</tr>
+<tr>
+<td>Xaero's World Map</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map">Curseforge</a> / <a href="https://modrinth.com/mod/NcUtCpym">Modrinth</a></td>
+</tr>
+<tr>
+<td>libIPN</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/libipn">Curseforge</a> / <a href="https://modrinth.com/mod/libipn">Modrinth</a></td>
+</tr>
+<tr>
+<td>spark</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/spark">Curseforge</a> / <a href="https://modrinth.com/mod/l6YH9Als">Modrinth</a></td>
+</tr>
+<tr>
+<td>WTHIT</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/wthit">Curseforge</a> / <a href="https://modrinth.com/mod/6AQIaxuO">Modrinth</a></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><br/>1.20.1 起追加mod</p>
+<p><a href="https://modrinth.com/mod/G1epq3jN">AdvancementInfo</a><br>
+<a href="https://github.com/charassss/tin3o">TIN3O</a><br>
+<a href="https://modrinth.com/mod/pGbwwB5d">LetMeClickAndSend</a></p>
+<h1 id="1182-vanilla">1.18.2 Vanilla</h1>
+<blockquote>
+<p>整合包为原版分支<br>
+更新日期：2023-07-06</p>
+</blockquote>
+<p>此版本使用了 <a href="https://modrinth.com/mod/K8pn1qHf">OAuth</a> 替代了 Auth Me</p>
+<h1 id="1182-create">1.18.2 Create</h1>
+<blockquote>
+<p>整合包为机械动力分支<br>
+更新日期：2023-07-06</p>
+</blockquote>
+<p>在 1.18.2 Vanilla 的基础上增加了 <a href="https://modrinth.com/mod/create-fabric">机械动力</a>、<a href="https://modrinth.com/mod/4EakbH8e">农夫乐事</a>、<a href="https://modrinth.com/mod/5aaWibi9">Trinkets</a>及其附属mod<a href="https://modrinth.com/mod/b5GyyYkp">不死图腾插槽</a> <a href="https://modrinth.com/mod/mSQF1NpT">鞘翅插槽</a></p>
+<h1 id="1194">1.19.4</h1>
+<blockquote>
+<p>整合包为原版分支<br>
+发布日期：2023-04-04</p>
+</blockquote>
+<p>整合包有部分mod是我自行添加汉化文件的，1.19.4整合包不存在机械动力分支</p>
+<h1 id="1201-vanilla">1.20.1 Vanilla</h1>
+<blockquote>
+<p>整合包为原版分支<br>
+发布日期：2023-08-23</p>
+</blockquote>
+<p>整合包有部分mod使用了第三方分支版本</p>
+<h1 id="1201-create">1.20.1 Create</h1>
+<blockquote>
+<p>整合包为机械动力分支<br>
+发布日期：2023-08-25</p>
+</blockquote>
+<p>在 1.20.1 Vanilla 的基础上增加了 <a href="https://modrinth.com/mod/create-fabric">机械动力</a>、<a href="https://modrinth.com/mod/4EakbH8e">农夫乐事</a>、<a href="https://modrinth.com/mod/5aaWibi9">Trinkets</a>及其附属mod<a href="https://modrinth.com/mod/b5GyyYkp">不死图腾插槽</a> <a href="https://modrinth.com/mod/mSQF1NpT">鞘翅插槽</a></p>
+<p>已知bug：</p>
+<ul>
+<li>实体方块在Sodium 5.0下无法正常显示 <a href="https://github.com/Fabricators-of-Create/Create/issues/1039">#1039</a></li>
+<li>与starlight冲突会导致游戏崩溃 <a href="https://github.com/Fabricators-of-Create/Create/issues/1041">#1041</a></li>
+</ul>
+<p>临时解决方案：</p>
+<ul>
+<li>暂时使用Sodium 4.0版本</li>
+<li>删除整合包内starlight</li>
+</ul>
+<h1 id="启动器">启动器</h1>
+<p>整合包内可能没有附带启动器，或者附带了jar格式的HMCL启动器，用Linux/MacOS的应该熟悉，在Windows下如果正确配置了环境变量是可以直接双击运行的。如果需要.exe格式的HMLC启动器可以前往<a href="https://hmcl.huangyuhui.net">HMCL官网</a>下载。或者你想用PCL2、BakaXL，可以把游戏目录自行添加到对应启动器内。<br>
+<strong>注意：不是导入整合包，而是添加已有文件夹</strong></p>
+<h1 id="光影">光影</h1>
+<p>所有整合包均不会使用Optifine，使用光影需要注意光影是否有适配Iris</p>
+<h1 id="第一次启动">第一次启动</h1>
+<p>游戏第一次启动需要联网下载游戏资源文件，如果需要在离线环境下游玩，需要提前在一台联网的电脑下载资源文件再复制到离线的电脑上。</p>
+<h1 id="下载">下载</h1>
+<table>
+<thead>
+<tr>
+<th>下载源</th>
+<th>文件服务器</th>
+<th>大陆/海外</th>
+<th>正式版</th>
+<th>预览版</th>
+<th>客户端</th>
+<th>服务器端</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://share.weiyun.com/PT0hKNFW">腾讯微云</a>(提取码：7e9ure)</td>
+<td>腾讯云</td>
+<td>大陆</td>
+<td>✓</td>
+<td>×</td>
+<td>√</td>
+<td>×</td>
+</tr>
+<tr>
+<td><a href="https://qm.qq.com/cgi-bin/qm/qr?k=FpNvPiwKEBbBRHMvH8-M6Kp1WTB8L6W0">QQ群</a>(1067555292)</td>
+<td>腾讯云COS</td>
+<td>大陆</td>
+<td>✓</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td><a href="https://drivez.yokinanya.icu/Minecraft">洛羽柒·风息</a></td>
+<td>Onedrive国际版</td>
+<td>海外</td>
+<td>✓</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    </entry>
+</feed>
